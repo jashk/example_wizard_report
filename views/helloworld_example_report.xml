@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <report 
+            id="action_report_helloworld"
+            model="report.example_wizard_report.report_helloworld"
+            string="Example PDF Report - Hello world"
+            report_type="qweb-pdf"
+            name="example_wizard_report.report_helloworld"
+            file="example_wizard_report.report_helloworld"
+            />
+    </data>
+</odoo>
